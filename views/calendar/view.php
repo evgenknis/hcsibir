@@ -1,2 +1,5 @@
-<?php
-        echo '111111111';
+<?php use yii\bootstrap\Button ?>
+
+<?= Button::widget();?>
+
+<?= var_dump($model->page->month); ?>

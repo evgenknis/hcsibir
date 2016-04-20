@@ -1,7 +1,7 @@
 <?php
 namespace app\controllers;
 
-use app\models\Calendar;
+use app\models\Calendar\Calendar;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 

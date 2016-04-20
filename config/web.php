@@ -46,6 +46,9 @@ $config = [
             ],
         ],
         */
+        'import'=>array(
+        'application.models.*',
+        'application.models.calendar.*')
     ],
     'params' => $params,
 ];
