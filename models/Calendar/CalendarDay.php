@@ -10,12 +10,11 @@ class CalendarDay extends Model
     public $events;
     public $currentMonth;
     
-    public function __construct($dayNumber, $events, $currentMonth) {             
+    public function __construct($dayNumber, $events) {             
         parent::__construct(); 
       
         $this->dayNumber = $dayNumber;
         $this->events = $events;
-        $this->dayNumber = $currentMonth;
     }
     
     
