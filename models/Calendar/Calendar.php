@@ -15,7 +15,7 @@ class Calendar extends Model
         $month = intval($now->format('n'));  
         $year = intval($now->format('Y')); 
         //phpinfo();
-        $this->page = new CalendarPage($month, $year);
+        //$this->page = new CalendarPage($month, $year);
     }
     
 }

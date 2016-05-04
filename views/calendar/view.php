@@ -1,5 +1,19 @@
-<?php use yii\bootstrap\Button ?>
+<?php 
+use yii\widgets\Pjax;
+use yii\helpers\Html;
 
-<?= Button::widget();?>
+?>
 
-<?= var_dump($model->page->month); ?>
+<?php  $this->render('page'); ?>
+<div id="data">
+
+<!--?php Pjax::begin(); ?-->
+    <!--?= Html::a("Обновить", ['calendar/view'], ['class' => 'btn btn-lg btn-primary']);?-->
+        
+    
+<!--?php Pjax::end(); ?-->
+</div>
+
+
+
+
