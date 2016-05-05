@@ -1,18 +1,33 @@
 <?php 
 use yii\widgets\Pjax;
 use yii\helpers\Html;
+use app\controllers\CalendarController; 
 
 ?>
 
-<?php  $this->render('page'); ?>
-<div id="data">
 
-<!--?php Pjax::begin(); ?-->
-    <!--?= Html::a("Обновить", ['calendar/view'], ['class' => 'btn btn-lg btn-primary']);?-->
-        
-    
-<!--?php Pjax::end(); ?-->
-</div>
+<div id="data"></div>
+
+маывмывамв
+мавымавы
+
+мавы
+м
+авы
+м
+авы
+м
+ав
+мав
+ы
+<?php Pjax::begin(['id'=>'data','enablePushState' => false]); ?>
+
+      <!--?= $response ?-->
+<?= Html::a("Обновить", ['calendar/page'], ['class' => 'btn btn-lg btn-primary']);?>
+<?php Pjax::end(); ?>
+      
+              
+
 
 
 
