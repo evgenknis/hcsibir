@@ -1,5 +1,6 @@
-<?=$currentNum;
+<?= count($calendarDays);
 
 ?>
+
 
 

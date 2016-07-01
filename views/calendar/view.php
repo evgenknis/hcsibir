@@ -23,7 +23,7 @@ use app\controllers\CalendarController;
 <?php Pjax::begin(['id'=>'data','enablePushState' => false]); ?>
 
       <!--?= $response ?-->
-<?= Html::a("Обновить", ['calendar/page'], ['class' => 'btn btn-lg btn-primary']);?>
+<?= Html::a("Обновить", ['calendar/page','start'=>'2016-06-01','end'=>'2016-06-30'], ['class' => 'btn btn-lg btn-primary']);?>
 <?php Pjax::end(); ?>
       
               
