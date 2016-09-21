@@ -6,20 +6,7 @@ use app\controllers\CalendarController;
 ?>
 
 
-<div id="data"></div>
-
-маывмывамв
-мавымавы
-
-мавы
-м
-авы
-м
-авы
-м
-ав
-мав
-ы
+<div id="data" class="container"></div>
 <?php Pjax::begin(['id'=>'data','enablePushState' => false]); ?>
 
       <!--?= $response ?-->

@@ -6,14 +6,14 @@ use yii\base\Model;
 
 class CalendarDay extends Model
 {
-    public $dayNumber;
+    public $date;
     public $events;
     public $currentMonth;
     
-    public function __construct($dayNumber, $events) {             
+    public function __construct($date, $events) {             
         parent::__construct(); 
       
-        $this->dayNumber = $dayNumber;
+        $this->date = $date;
         $this->events = $events;
     }
     
