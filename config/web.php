@@ -51,6 +51,13 @@ $config = [
         'application.models.calendar.*')
     ],
     'params' => $params,
+    'modules' => [
+        'datecontrol' =>  [
+            'class' => '\kartik\datecontrol\Module',
+            'displayTimezone' => 'Asia/Novosibirsk',
+            'saveTimezone' => 'UTC'
+         ]
+     ]
 ];
 
 if (YII_ENV_DEV) {
